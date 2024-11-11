@@ -1,0 +1,54 @@
+.add-group-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  flex: 1;
+}
+.group-name-input {
+  width: 100%;
+  border-radius: 10px;
+  flex: 2;
+  height: 30px;
+  border: 1px solid #cccc;
+  outline: none;
+  padding: 0px 15px;
+}
+
+.customModal {
+  background: white;
+  max-width: 500px;
+  width: 100%;
+}
+
+.color-codes {
+  width: 100%;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.color-selector {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.form-submit {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #001f8b;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 30px;
+  cursor: pointer;
+}
